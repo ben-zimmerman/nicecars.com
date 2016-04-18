@@ -40,7 +40,7 @@ theme = "hugo-creative-theme"
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
 		slogan     = "Rock Duo from Pittsburgh"
-		subtitle   = "We play rock and roll, we don't fuck around."
+		subtitle   = "We play rock and roll, we drink Yuengling."
 		buttonText = "Listen Up"
 
 
@@ -53,8 +53,6 @@ theme = "hugo-creative-theme"
 	[params.videos]
 		headline    = "Check out our videos"
 		description = "We shot a music video for our song <em>Chlorine</em> and have some single take rehearsal videos for you to enjoy. <a href='https://www.youtube.com/channel/UCjee7dBF1_5SGImyQlxvnmw' class='btn'><i class='fa fa-youtube fa-2x wow bounceIn' data-wow-delay='.1s'></i> YouTube Channel</a>"
-
-
 
 
 	# Contact section
