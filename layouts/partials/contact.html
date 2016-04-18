@@ -1,6 +1,6 @@
 {{ "<!-- CONTACT -->" | safeHTML }}
 <section id="contact">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-center">
                 <h2 class="section-heading">{{ with .Site.Params.contact.headline }}{{ . }}{{ end }}</h2>
@@ -18,5 +18,6 @@
                 <p>{{ with .Site.Params.contact.email }}{{ . }}{{ end }}</a></p>
             </div>
         </div>
+
     </div>
 </section>

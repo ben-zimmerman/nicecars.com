@@ -38,7 +38,7 @@ a:focus {
 
 a.faded  {
     color: rgba(52, 52, 52, .7);
-    font-size: 13px;
+    font-size: 12px;    
 }
 
 a:hover.faded ,
