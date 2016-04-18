@@ -24,15 +24,15 @@ theme = "hugo-creative-theme"
 
 	# The path must be relative to the static folder
 	favicon = "favicon.ico"
-
+	googleAnalytics = "UA-76525177-1"
 
 	# Navigation
 	[params.navigation]
 		brand = "Nice Cars"
 
 		[params.navigation.links]
-			about     = "Music"
-			videos     = "Videos"
+			music     = "Music"
+			videos    = "Videos"
 			contact   = "Contact"
 
 
@@ -45,7 +45,7 @@ theme = "hugo-creative-theme"
 
 
 	# About section
-	[params.about]
+	[params.music]
 		headline    = "Find our music at your favorite spots"
 		description = "We have been self releasing music since 2014 and have made it available in as many online streaming services as possible."
 
@@ -58,6 +58,6 @@ theme = "hugo-creative-theme"
 	# Contact section
 	[params.contact]
 		headline = "Find out when we are playing"
-		description = "When we aren't in the studio drinking Coors banquet we like to play around town. Connect with us on Facebook to find out when, or just email us."
+		description = "When we are not in the studio with some Coors Banquet we like to play around town. Connect with us on Facebook to find out when, or just email us."
 		phone = "123-456-6789"
 		email = "nicecarsband@gmail.com"

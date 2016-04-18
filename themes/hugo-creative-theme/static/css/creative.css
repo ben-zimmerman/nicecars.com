@@ -36,12 +36,12 @@ a:focus {
     color: #eb3812;
 }
 
-#about a {
+a.faded  {
     color: rgba(52, 52, 52, .7);
 }
 
-#about a:hover,
-#about a:focus {
+a:hover.faded ,
+a:focus.faded  {
     color: rgb(52, 52, 52);
 }
 
