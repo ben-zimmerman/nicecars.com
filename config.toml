@@ -1,0 +1,65 @@
+baseurl = "http://www.nicecarsband.com/"
+languageCode = "en-us"
+title = "Nice Cars | Rock Duo from Pittsburgh"
+theme = "hugo-creative-theme"
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
+
+	# All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# All projects of the portfolio are defined in their own files.
+	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+	# folder into the 'data' directory at the root of this Hugo site.
+	# For more informtion take a look at the README.
+
+	# To provide some metadata for search engines feel free to add a few
+    # information about you and your website.
+	name = "Nice Cars"
+	description = "A two man rock band from Pittsburgh PA."
+
+	# The path must be relative to the static folder
+	favicon = "favicon.ico"
+
+
+	# Navigation
+	[params.navigation]
+		brand = "Nice Cars"
+
+		[params.navigation.links]
+			about     = "Music"
+			videos     = "Videos"
+			contact   = "Contact"
+
+
+	# Hero section
+	[params.hero]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		slogan     = "Rock Duo from Pittsburgh"
+		subtitle   = "We play rock and roll, we don't fuck around."
+		buttonText = "Listen Up"
+
+
+	# About section
+	[params.about]
+		headline    = "Find our music at your favorite spots"
+		description = "We have been self releasing music since 2014 and have made it available in as many online streaming services as possible."
+
+	# Videos section
+	[params.videos]
+		headline    = "Check out our videos"
+		description = "We shot a music video for our song <em>Chlorine</em> and have some single take rehearsal videos for you to enjoy. <a href='https://www.youtube.com/channel/UCjee7dBF1_5SGImyQlxvnmw' class='btn'><i class='fa fa-youtube fa-2x wow bounceIn' data-wow-delay='.1s'></i> YouTube Channel</a>"
+
+
+
+
+	# Contact section
+	[params.contact]
+		headline = "Find out when we are playing"
+		description = "When we aren't in the studio drinking Coors banquet we like to play around town. Connect with us on Facebook to find out when, or just email us."
+		phone = "123-456-6789"
+		email = "nicecarsband@gmail.com"

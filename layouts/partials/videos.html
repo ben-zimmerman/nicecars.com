@@ -1,0 +1,17 @@
+{{ "<!-- VIDEOS -->" | safeHTML }}
+<section class="bg-dark" id="videos">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <h2 class="section-heading">{{ with .Site.Params.videos.headline }}{{ . }}{{ end }}</h2>
+                <hr class="light">
+                <p class="text-faded">{{ with .Site.Params.videos.description }}{{ . | markdownify }}{{ end }}</p>
+            </div>
+        </div>
+         <div class="row">
+            <div class="embed-responsive embed-responsive-16by9 col-xs-12 text-center">
+             <iframe class="embed-responsive-item" align="center" src="https://www.youtube.com/embed/A8oFxq4hq5M" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</section>
