@@ -65,5 +65,35 @@ theme = "hugo-creative-theme"
 
 	# Updates section
 	[params.updates]
-		headline    = "Here's what we have been saying on social media."
+		headline    = "Social media feed"
 		description = "By social media I of course mean facebook."
+
+	[params.showsPast]
+		headline    = "Recent shows"
+		description = "Bright lights, cold beers."
+
+		[[params.showsPast.list]]
+			date = "1/14/2016"
+			venue = "Club Cafe - Pittsburgh / South Side"
+			details = "Opening for Shiner"
+
+		[[params.showsPast.list]]
+			date = "4/14/2016"
+			venue = "Club Cafe - Pittsburgh / South Side"
+			details = "Opening for Future Thieves"
+
+		[[params.showsPast.list]]
+			date = "5/20/2016"
+			venue = "Pinball Perfection - Pittsburgh / West View"
+			details = "Rock and Roll Pinball Party with OC Feef"
+
+		[[params.showsPast.list]]
+			date = "9/2/2016"
+			venue = "Club Cafe - Pittsburgh / South Side"
+			details = "Opening for Adelaide in Autum + Cape Cod"
+
+	[params.showsFuture]
+		headline    = "Upcoming shows"
+		description = "Coming soon, stay tuned."
+
+	
