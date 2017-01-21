@@ -3,28 +3,29 @@
     <div class="container-fluid">
         <div class="row">
           <div class="col-md-6 text-center">
-              <h2 class="section-heading">{{ with .Site.Params.showsPast.headline }}{{ . }}{{ end }}</h2>
-              <hr class="light">
-              <p class="text-faded">{{ with .Site.Params.showsPast.description }}{{ . | markdownify }}{{ end }}</p>
-              <div  class="col-md-12 col-md-offset-0 col-sm-offset-3 text-left">
-                {{ range .Site.Params.showsPast.list }}
-                <p>{{ .date }} : {{ .venue}}
-                  <span class="text-faded">{{ .details}}</span>
-                </p>
-                {{ end }}
-              </div>
-              <p style="height:200px;">&nbsp;</p>
+            <h2 class="section-heading">{{ with .Site.Params.showsFuture.headline }}{{ . }}{{ end }}</h2>
+            <hr class="light">
+            <p class="text-faded">{{ with .Site.Params.showsFuture.description }}{{ . | markdownify }}{{ end }}</p>
+            <div  class="col-md-12 col-md-offset-0 col-sm-offset-3 text-left">
+              {{ range .Site.Params.showsFuture.list }}
+              <p>{{ .date }} : {{ .venue}}
+                <span class="text-faded">{{ .details}}</span>
+              </p>
+              {{ end }}
+            </div>
 
-              <h2 class="section-heading">{{ with .Site.Params.showsFuture.headline }}{{ . }}{{ end }}</h2>
-              <hr class="light">
-              <p class="text-faded">{{ with .Site.Params.showsFuture.description }}{{ . | markdownify }}{{ end }}</p>
-              <div  class="col-md-12 col-md-offset-0 col-sm-offset-3 text-left">
-                {{ range .Site.Params.showsFuture.list }}
-                <p>{{ .date }} : {{ .venue}}
-                  <span class="text-faded">{{ .details}}</span>
-                </p>
-                {{ end }}
-              </div>
+            <p style="height:200px;">&nbsp;</p>
+
+            <h2 class="section-heading">{{ with .Site.Params.showsPast.headline }}{{ . }}{{ end }}</h2>
+            <hr class="light">
+            <p class="text-faded">{{ with .Site.Params.showsPast.description }}{{ . | markdownify }}{{ end }}</p>
+            <div  class="col-md-12 col-md-offset-0 col-sm-offset-3 text-left">
+              {{ range .Site.Params.showsPast.list }}
+              <p>{{ .date }} : {{ .venue}}
+                <span class="text-faded">{{ .details}}</span>
+              </p>
+              {{ end }}
+            </div>
           </div>
           <div class="col-md-6 text-center">
               <h2 class="section-heading">{{ with .Site.Params.updates.headline }}{{ . }}{{ end }}</h2>

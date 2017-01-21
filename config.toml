@@ -94,6 +94,9 @@ theme = "hugo-creative-theme"
 
 	[params.showsFuture]
 		headline    = "Upcoming shows"
-		description = "Coming soon, stay tuned."
+		description = "More 2017 dates soon."
 
-	
+		[[params.showsFuture.list]]
+			date = "2/26/2017"
+			venue = "Club Cafe - Pittsburgh / South Side"
+			details = "Opening for Bad Pop"
