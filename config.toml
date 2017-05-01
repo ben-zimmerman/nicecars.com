@@ -92,11 +92,16 @@ theme = "hugo-creative-theme"
 			venue = "Club Cafe - Pittsburgh / South Side"
 			details = "Opening for Adelaide in Autum + Cape Cod"
 
+		[[params.showsFuture.list]]
+                        date = "2/26/2017"
+                        venue = "Club Cafe - Pittsburgh / South Side"
+                        details = "Opening for Bad Pop"
+
 	[params.showsFuture]
 		headline    = "Upcoming shows"
 		description = "More 2017 dates soon."
 
 		[[params.showsFuture.list]]
-			date = "2/26/2017"
-			venue = "Club Cafe - Pittsburgh / South Side"
-			details = "Opening for Bad Pop"
+			date = "5/20/2017"
+			venue = "Mr. Smalls - Pittsburgh / Millvale"
+			details = "Opening for Bleeker/Beware of Darkness"
