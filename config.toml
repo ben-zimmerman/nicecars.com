@@ -1,4 +1,4 @@
-baseurl = "http://www.nicecarsband.com/"
+baseurl = "http://nicecarsband.com/"
 languageCode = "en-us"
 title = "Nice Cars | Rock Duo from Pittsburgh"
 theme = "hugo-creative-theme"
