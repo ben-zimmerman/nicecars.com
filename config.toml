@@ -74,6 +74,11 @@ theme = "hugo-creative-theme"
 		description = "Bright lights, cold beers."
 
 		[[params.showsPast.list]]
+			date = "10/06/2018"
+			venue = "Club Cage - Pittsburgh / South Side"
+			details = "Opening for Jon Worthy & Norm"
+
+		[[params.showsPast.list]]
 			date = "1/14/2016"
 			venue = "Club Cafe - Pittsburgh / South Side"
 			details = "Opening for Shiner"
@@ -100,9 +105,9 @@ theme = "hugo-creative-theme"
 
 	[params.showsFuture]
 		headline    = "Upcoming shows"
-		description = "More 2018 dates soon."
+		description = "More dates coming soon."
 
 		[[params.showsFuture.list]]
-			date = "10/06/2018"
-			venue = "Club Cage - Pittsburgh / South Side"
-			details = "Opening for Jon Worthy & Norm"
+			date = "2019"
+			venue = "See you soon!"
+			details = ""
