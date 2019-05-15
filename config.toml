@@ -108,6 +108,6 @@ theme = "hugo-creative-theme"
 		description = "More dates coming soon."
 
 		[[params.showsFuture.list]]
-			date = "2019"
-			venue = "See you soon!"
-			details = ""
+			date = "6/29/2019"
+			venue = "Club Cafe - Pittsburgh / South Side"
+			details = "Opening for Jon Worthy and the Bends"
