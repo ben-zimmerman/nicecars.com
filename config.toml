@@ -33,6 +33,7 @@ theme = "hugo-creative-theme"
 		[params.navigation.links]
 			music     = "Music"
 			videos    = "Videos"
+			merch	  = "Merch"
 			contact   = "Contact"
 			updates   = "Shows"
 			latest = "Latest Release"
