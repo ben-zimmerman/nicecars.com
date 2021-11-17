@@ -35,7 +35,7 @@ theme = "hugo-creative-theme"
 			videos    = "Videos"
 			merch	  = "Merch"
 			contact   = "Contact"
-			updates   = "Shows"
+			# updates   = "Shows"
 			latest = "Latest Release"
 
 
@@ -43,7 +43,7 @@ theme = "hugo-creative-theme"
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
 		slogan     = "Rock Duo from Pittsburgh"
-		subtitle   = "We play rock and roll, we drink beer."
+		subtitle   = "\"Don’t name it after me- not the boat, not the kids, not the home\""
 		buttonText = "Listen Up"
 
 
