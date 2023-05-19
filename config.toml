@@ -60,8 +60,8 @@ theme = "hugo-creative-theme"
 
 	# Contact section
 	[params.contact]
-		headline = "Find out when we are playing"
-		description = "When we are not in the studio with some Coors Banquet we like to play around town. Connect with us on Facebook to find out when, or just email us."
+		headline = "Connect with us"
+		description = "When we are not in the studio we like to play around town.<br />Find us on Instagram or Facebook to see when we are playing next, or just email us."
 		phone = "123-456-6789"
 		email = "nicecarsband@gmail.com"
 
