@@ -43,7 +43,7 @@ theme = "hugo-creative-theme"
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
 		slogan     = "Rock Duo from Pittsburgh"
-		subtitle   = "\"Don’t name it after me- not the boat, not the kids, not the home\""
+		subtitle   = "\"It’s all for the glow.\""
 		buttonText = "Listen Up"
 
 
